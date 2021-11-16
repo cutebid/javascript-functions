@@ -1,4 +1,9 @@
-function seed() {}
+function seed(value) {
+  let arr = []
+ return  arr.push(value)
+}
+let result = seed([], 'a,b,c')
+console.log(result)
 
 function same([x, y], [j, k]) {}
 
